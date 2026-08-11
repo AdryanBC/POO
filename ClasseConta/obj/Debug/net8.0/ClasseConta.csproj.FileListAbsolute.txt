@@ -12,3 +12,4 @@ C:\Users\aluno\Desktop\POO Noite\ClasseConta\obj\Debug\net8.0\refint\ClasseConta
 C:\Users\aluno\Desktop\POO Noite\ClasseConta\obj\Debug\net8.0\ClasseConta.pdb
 C:\Users\aluno\Desktop\POO Noite\ClasseConta\obj\Debug\net8.0\ClasseConta.genruntimeconfig.cache
 C:\Users\aluno\Desktop\POO Noite\ClasseConta\obj\Debug\net8.0\ref\ClasseConta.dll
+C:\Users\aluno\Desktop\POO Noite\ClasseConta\obj\Debug\net8.0\ClasseConta.sourcelink.json
