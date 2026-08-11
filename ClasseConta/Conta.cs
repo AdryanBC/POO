@@ -17,14 +17,19 @@ namespace ClasseConta
              Console.WriteLine($"Número: {numero} \tTitular: {titular} \tSaldo: {saldo:c}");
         }
 
-        public void Sacar()
+        public void Sacar(double valorSaque)
         {
-            
+            saldo = saldo - valorSaque;
         }
-        public void Depositar()
+        public void Depositar(double valorDeposito)
         {
-
+            // saldo = saldo + valorDeposito
+            saldo += valorDeposito;
         }
-        
+        public void Transferir(double valorTransferencia, Conta objContaDestino)
+        {
+            saldo = saldo - valorTransferencia;
+            objContaDestino.saldo += valorTransferencia;
+        }
     }
 }
