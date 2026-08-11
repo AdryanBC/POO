@@ -19,5 +19,13 @@ internal class Program
         // instanciação do objeto c2
 
         Conta c2 = new Conta();
+        Console.Write("Informe o número: ");
+        c2.numero = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Informe o titular: ");
+        c2.titular = Console.ReadLine();
+        Console.Write("Informe o saldo: ");
+        c2.saldo = Convert.ToDouble(Console.ReadLine());
+
+        c2.MostrarAtributos();
     }
 }

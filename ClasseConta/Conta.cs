@@ -12,6 +12,11 @@ namespace ClasseConta
         public string titular;
         public double saldo;
         // declaração dos métodos (funções)
+        public void MostrarAtributos()
+        {
+             Console.WriteLine($"Número: {numero} \tTitular: {titular} \tSaldo: {saldo:c}");
+        }
+
         public void Sacar()
         {
 
