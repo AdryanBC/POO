@@ -14,8 +14,13 @@ internal class Program
         c1.titular = "Ana";
         c1.saldo = 109.10;
 
-        Console.WriteLine($"Número: {c1.numero} \tTitular: {c1.titular} \tSaldo: {c1.saldo:c}");
-        // exemplo com digitação
+        c1.MostrarAtributos();        
+        // exibição otimizada
+        Console.Write("Informe o valor a sacar: ");
+        double saque = Convert.ToDouble(Console.ReadLine());
+        // saque é um argumento do método (função)
+        c1.Sacar(saque);
+        c1.MostrarAtributos();
         // instanciação do objeto c2
 
         Conta c2 = new Conta();
@@ -27,5 +32,6 @@ internal class Program
         c2.saldo = Convert.ToDouble(Console.ReadLine());
 
         c2.MostrarAtributos();
+        // exibição otimizada
     }
 }
